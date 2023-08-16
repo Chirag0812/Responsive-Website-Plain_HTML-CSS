@@ -1,0 +1,58 @@
+#navbar{
+    flex-direction: column;
+}
+
+.unlist{
+    flex-direction: column;
+}
+#mainlogo{
+    margin-right: 0px;
+}
+.burger{
+    display: block;
+    visibility: visible;
+}
+.hnav{
+    height: 35px;
+}
+.vis{
+    visibility: hidden;
+}
+
+/* home  */
+
+.home{
+    margin: 0px;
+    height: 30rem;
+     
+}
+.home::before{
+ max-width: 100%;
+}
+.content{
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.home h2{
+    font-size: 40px;
+}
+.home p{
+    font-size: 15px;
+    width: 80%;
+}
+.parah{
+    padding: 0px 0px;
+    background-color: whitesmoke;
+  }
+.box01{
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+}
+.box02{
+    flex-direction: column ;
+    margin-bottom: 25px;
+}
+.box03{
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+} 

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+  --font-size: 35px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navbar  */
+
+.navbar{
+display: flex;
+}
+
+#mainlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 50px;
+}
+
+#mainlogo img{
+  width: 36px;
+}
+
+.unlist {
+    display: flex;
+    /* border: 2px solid blue;
+    border-radius: 20px; */
+    background-color:burlywood;
+    height: 48px;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    }
+
+  .unlist li{
+    list-style: none;
+    padding: 3px 14px;
+  }
+
+    .unlist li a{
+      text-decoration: solid;
+      color: blue;
+    }
+
+    .unlist li:hover {
+      background-color: rgb(179, 98, 255);
+      border-radius: 15px;
+      
+  }
+
+  .burger{
+    visibility: hidden;
+     position: absolute;
+     cursor: pointer;
+     right: 13px;
+     top: 6px;
+  }
+  .line{
+    width: 25px;
+    background-color: black;
+    padding: 1px 2px;
+    margin: 4px 4px;
+    height: 2px;
+  }
+
+  /* Home  */
+
+  .home {
+    display: flex;
+    padding: 13px 0px;
+    /* height: 600px; */
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top: 0px;
+    width:100%;
+    height: 30rem;
+    z-index: -1;
+    opacity: 1;
+}
+ .content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 65px auto;
+   margin-bottom: 167px;
+ }
+  .home h2 {
+    font-size: 43px;
+    color: #d95e24;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.home p {
+    color: #d95e24;
+    font-size: 17px;
+    width: 60%;
+}
+
+.btn {
+  border-radius: 15px;
+    font-size: 0.8rem;
+    width: 89px;
+    height: 28px;
+    color: rgb(245, 245, 245);
+    background-color: #662020;
+    cursor: pointer;
+}
+
+/* Boxes  */
+
+.mainhead {
+   font-size: var(--font-size);
+  text-align: center;
+}
+.box01{
+  max-width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.box01 img{
+  width:  200px;
+  height: 200px;
+}
+.box02{
+  max-width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.box02 img{
+  width:  300px;
+  height: 200px;
+}
+.box03{ 
+  max-width: 80%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+.box03 img{
+  width:  200px;
+  height: 200px;
+}
+.parah{
+  padding: 0px 40px;
+  background-color: whitesmoke;
+}
+
+ /* Contacts */
+
+ .contact{
+   background-color: lightcyan;
+ }
+#contactbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+#formbox{
+  padding: 10px;
+  margin: 3px;
+
+}
+#formbox label{
+  display: block;
+  font-size: 20px;
+  color: #ff4400eb;
+}
+#formbox input{
+  border-radius: 10px;
+  height: 20px;
+}
+#formbox button{
+  display: block;
+  font-size: 15px;
+  /* border-radius: 10px; */
+  color: deepskyblue;
+  width: 100px;
+  height: 40px;
+   margin: 2px auto;
+}
+ 
+/* header  */
+header{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
